@@ -4,8 +4,9 @@
   </div>
 </template>
 <script  lang="ts">
-let mybirth: number = 6
-console.log(mybirth)
+export default {
+  name: 'about'
+}
 </script>
 <style lang="scss">
   $primary-color: #ffe174;
